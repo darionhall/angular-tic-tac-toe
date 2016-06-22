@@ -14,20 +14,25 @@ body {
   background-position: center;
   background-size: cover;
 }
-/*
-.container-well {
-  width: 31.2em;
-  height: 31.2em;
-  margin: 0 auto;
-  float: center;
-  size: fill;
+
+.row {
+  box-sizing: border-box;
 }
 
-.div {
-}*/
-
 button {
+  font-size:55px;
+  width: 100px;
+  height: 100px;
+  text-align: center;
   background-color: black;
+  color: white;
+}
+.newgame {
+  font-size:40px;
+  width: 250px;
+  text-align: center;
+  background-color: black;
+  color: white;
 }
 .X {
   color: white;
